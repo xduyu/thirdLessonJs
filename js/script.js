@@ -40,8 +40,17 @@
 //     }
 // }
 
-let arr = ["s", true, "a", 34, 32]
+// let arr = ["s", true, "a", 34, 32]
+
+// for (let i = 0; i < arr.length; i++) {
+//     console.log(arr[i])
+// }
+
+let arr = [1, 2, 45, 6, 7];
+
+let res = 0;
 
 for (let i = 0; i < arr.length; i++) {
-    console.log(arr[i])
+    res += arr[i];
+    console.log(res)
 }
